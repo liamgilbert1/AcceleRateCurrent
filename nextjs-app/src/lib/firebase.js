@@ -2,14 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBTIYLIDwFL4qjCFtaqAp96vAA1eHCLJpI",
-    authDomain: "accelerate-d1be5.firebaseapp.com",
-    projectId: "accelerate-d1be5",
-    storageBucket: "accelerate-d1be5.appspot.com",
-    messagingSenderId: "889979093123",
-    appId: "1:889979093123:web:d6aa326e76140a02449bb6",
-    measurementId: "G-X4SD4LJW3J"
-};
+    apiKey: "AIzaSyC3SA6tAT2symikGnc6JwnMkwIj6Jdb1F4",
+    authDomain: "accelerate-d74fd.firebaseapp.com",
+    projectId: "accelerate-d74fd",
+    storageBucket: "accelerate-d74fd.appspot.com",
+    messagingSenderId: "112718686116",
+    appId: "1:112718686116:web:f38317ed3b6b26057b0331",
+    measurementId: "G-SCLXJNB0P0"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
