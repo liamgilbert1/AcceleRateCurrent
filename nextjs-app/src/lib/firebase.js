@@ -7,8 +7,8 @@ const firebaseConfig = {
     projectId: "accelerate-d74fd",
     storageBucket: "accelerate-d74fd.appspot.com",
     messagingSenderId: "112718686116",
-    appId: "1:112718686116:web:f38317ed3b6b26057b0331",
-    measurementId: "G-SCLXJNB0P0"
+    appId: "1:112718686116:web:d5d126584e6764057b0331",
+    measurementId: "G-1CTKQ3X3M3"
   };
 
 // Initialize Firebase
