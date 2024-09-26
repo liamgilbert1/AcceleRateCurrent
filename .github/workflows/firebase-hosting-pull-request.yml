@@ -13,13 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4 
-      - run: cd nextjs-app 
       - name: Install Dependencies 
         run: npm install 
+        working-directory: nextjs-app
       - name: Build
         run: npm run build
+        working-directory: nextjs-app
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ACCELERATE_D74FD }}
+          channelId: live
           projectId: accelerate-d74fd
+          entryPoint: nextjs-app
