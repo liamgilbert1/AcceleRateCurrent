@@ -2,6 +2,8 @@
 import SimpleLoginForm from './components/login_form';
 
 import { useEffect, useState } from 'react';
+import App from './home/homepage';
+import './home/homepage.css';
 
 export default function Home() {
   // const [data, setData] = useState(null);
@@ -28,7 +30,8 @@ export default function Home() {
     <div>
       {/* <h1>Message from FastAPI</h1>
       <p>{data.message}</p> */}
-      <SimpleLoginForm />
+      {/* <SimpleLoginForm /> */}
+      <App />
     </div>
   );
 }
