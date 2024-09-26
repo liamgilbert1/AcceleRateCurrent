@@ -11,12 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4 
+<<<<<<< HEAD
       - name: Install Dependencies 
         run: npm install 
         working-directory: nextjs-app
       - name: Build
         run: npm run build
         working-directory: nextjs-app
+=======
+      - run: cd nextjs-app 
+      - name: Install Dependencies 
+        run: npm install 
+      - name: Build
+        run: npm run build
+>>>>>>> origin/main
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
