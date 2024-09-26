@@ -25,3 +25,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ACCELERATE_D74FD }}
           channelId: live
           projectId: accelerate-d74fd
+          entryPoint: nextjs-app
