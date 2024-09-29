@@ -32,7 +32,7 @@ body {
 #logo {
   width: 100%;
   height: 100%;
-  background-image: url('./res/AcceleRateHomeLogo.png');
+  background-image: url('../res/AcceleRateHomeLogo.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
