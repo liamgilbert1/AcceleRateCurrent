@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 
 const FramerEmbed = () => {
   return (
@@ -8,7 +7,7 @@ const FramerEmbed = () => {
       <iframe
         src="https://accelerate-estimates.framer.website/contact"
         style={{ width: '100%', height: '100%', border: 'none' }}
-        title="Framer Page"
+        title="Contact Page"
       />
     </div>
   );
