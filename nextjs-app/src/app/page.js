@@ -1,35 +1,17 @@
-"use client";
-import App from './home/page';
-import './home/homepage.css';
+'use client';
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
-export default function Home() {
-  // const [data, setData] = useState(null);
-
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     try {
-  //       const res = await fetch('/api/backend');
-  //       const result = await res.json();
-  //       setData(result);
-  //     } catch (error) {
-  //       console.error('Failed to fetch data', error);
-  //     }
-  //   }
-
-  //   fetchData();
-  // }, []);
-
-  // if (!data) {
-  //   return <p>Loading...</p>;
-  // }
-
+const FramerEmbed = () => {
   return (
-    <div>
-      {/* <h1>Message from FastAPI</h1>
-      <p>{data.message}</p> */}
-      {/* <SimpleLoginForm /> */}
-      <App />
+    <div style={{ width: '100%', height: '100vh' }}>
+      <iframe
+        src="https://accelerate-estimates.framer.website/"
+        style={{ width: '100%', height: '100%', border: 'none' }}
+        title="Framer Page"
+      />
     </div>
   );
-}
+};
 
+export default FramerEmbed;
