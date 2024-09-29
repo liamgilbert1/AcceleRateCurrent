@@ -1,7 +1,8 @@
+'use client';
 import React, { useState } from 'react';
 import { create_user } from '../../lib/create_user';
 
-function SimpleLoginForm() {
+export default function SimpleLoginForm() {
   // State variables to store email and password
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -31,4 +32,3 @@ function SimpleLoginForm() {
   );
 }
 
-export default SimpleLoginForm;

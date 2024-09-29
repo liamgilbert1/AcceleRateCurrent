@@ -1,8 +1,5 @@
 "use client";
-import SimpleLoginForm from './components/login_form';
-
-import { useEffect, useState } from 'react';
-import App from './home/homepage';
+import App from './home/page';
 import './home/homepage.css';
 
 export default function Home() {
